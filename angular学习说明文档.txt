@@ -2,6 +2,9 @@
 
 
 新增组件命令（在项目根目录执行） ng generate component heroes
+新增服务名  ng generate service hero 组件不应直接获取或保存数据，他们应该专注于呈现数据并委托对服务的数据访问
+
+
 说明：
 app.component.ts- 用TypeScript编写的组件类代码。
 app.component.html- 用HTML编写的组件模板。

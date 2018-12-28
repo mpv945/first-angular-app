@@ -1,4 +1,4 @@
-# 使用步骤：[README.md使用说明](https://blog.csdn.net/kaitiren/article/details/38513715);[语法效果对比图](https://stackedit.io/app#), Angular 7 Snippets插件时angular vscode开发支持关键字联想快速生成代码
+#  使用步骤：[README.md使用说明](https://blog.csdn.net/kaitiren/article/details/38513715);[语法效果对比图](https://stackedit.io/app#), Angular 7 Snippets插件时angular vscode开发支持关键字联想快速生成代码。[Angular官网教程地址](https://angular.io)  [教程代码地址](https://stackblitz.com/angular/oyxlaykrmklg)
 
 ##    一 安装vscode（ctrl+ESC下面的点键盘可以呼出终端）
         1.下载对应的版本https://code.visualstudio.com/Download
