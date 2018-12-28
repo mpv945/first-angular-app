@@ -1,0 +1,8 @@
+文件结构
+
+
+新增组件命令（在项目根目录执行） ng generate component heroes
+说明：
+app.component.ts- 用TypeScript编写的组件类代码。
+app.component.html- 用HTML编写的组件模板。
+app.component.css- 组件的私有CSS样式。

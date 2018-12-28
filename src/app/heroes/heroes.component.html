@@ -1,0 +1,37 @@
+<!-- <p> -->
+  <!-- heroes works! -->
+  <!-- 绑定到新hero属性的数据。 -->
+  <!-- {{hero}} -->
+  <!-- 对应ts文件定义的selector: 'app-heroes', 选择器 -->
+<!-- <app-heroes></app-heroes>
+</p> -->
+
+<!-- 第二种数据绑定 -->
+<h2>{{hero.name | uppercase}} (支持双向绑定，而且还使用了管道，自动转大写)</h2><!--管道是格式化字符串，货币金额，日期和其他显示数据的好方法。角船有几个内置管道，你可以自己创建。-->
+<div><span>id: </span>{{hero.id}}</div>
+<div>
+  <label>name:
+    <!-- [（ngModel）]是Angular的双向数据绑定语法。 -->
+    <input [(ngModel)]="hero.name" placeholder="name">
+  </label>
+</div>
+
+<h2>我的英雄列表</h2>
+<ul class="heroes">
+  <!-- *ngFor 循环的关键语法let hero 表示每个item对象，of heroes表示集合，类似java增强for循环 -->
+  <li *ngFor="let hero of heroes"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
+<!-- *ngIf 判断空值或者未定义的，如果为false则不会显示 -->
+<div *ngIf="selectedHero">
+  <h2>我选择了 {{selectedHero.name | uppercase}} </h2>
+  <div><span>id: </span>{{selectedHero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedHero.name" placeholder="name">
+    </label>
+  </div>
+</div>
