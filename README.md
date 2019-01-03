@@ -1,7 +1,7 @@
 注意angular可以加Ionic4开发app项目。具体参考https://www.imooc.com/article/70338
 ionic4+angular6 混合移动开发 capacitor cordova： https://www.cnblogs.com/huangenai/p/9886048.html和https://www.cnblogs.com/huangenai/p/9886721.html
 vue+cordova构建跨平台应用集成并使用Cordova plugin：https://www.cnblogs.com/huangenai/p/10002769.html
-注意capacitor是新型的混合器。只支持安装5+和ios 9+
+注意capacitor是新型的混合器。只支持安装5+和ios 9+（http://www.cnblogs.com/huangenai/p/9887448.html）
 
 # 目前流行前端框架UI参考：https://blog.csdn.net/fundebug/article/details/80175493
 
