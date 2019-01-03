@@ -3,6 +3,11 @@ ionic4+angular6 混合移动开发 capacitor cordova： https://www.cnblogs.com/
 vue+cordova构建跨平台应用集成并使用Cordova plugin：https://www.cnblogs.com/huangenai/p/10002769.html
 注意capacitor是新型的混合器。只支持安装5+和ios 9+（http://www.cnblogs.com/huangenai/p/9887448.html）
 
+后台node框架
+Express：http://www.expressjs.com.cn/
+koa2:https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001471087582981d6c0ea265bf241b59a04fa6f61d767f6000 和 https://koa.bootcss.com/#introduction
+Egg：https://eggjs.org/zh-cn/
+
 # 目前流行前端框架UI参考：https://blog.csdn.net/fundebug/article/details/80175493
 
 #  使用步骤：[README.md使用说明](https://blog.csdn.net/kaitiren/article/details/38513715);[语法效果对比图](https://stackedit.io/app#), Angular 7 Snippets插件时angular vscode开发支持关键字联想快速生成代码。[Angular官网教程地址](https://angular.io)  
